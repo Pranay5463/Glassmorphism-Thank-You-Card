@@ -1,0 +1,51 @@
+<!------Coded by @Pranay5463-------->
+<!------ www.github.com/Pranay5463 ------>
+<!------ www.instagram.com/dark_elite_98 ------>
+<html>
+	<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Glassmorphism Thank You Card </title>
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Source+Sans+Pro" rel="stylesheet">
+	</head>
+	<body>
+	<section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="thnk">
+						<h1>Thank You !</h1>
+					</div>
+					<div class="txt">
+						<h3><span>Thanks for supporting 🙂❤️</span></h3>
+					</div>
+					<button class="fa-heart" id="fa-heart" onclick="myFunction()"> ❤️</button>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<script>
+		function myFunction() {
+			const heart = document.createElement('heart');
+			heart.classList.add('heart');
+			heart.style.left = Math.random() * 100 + "vw";
+			heart.style.animationDuration = Math.random() * 2 + 8 + 's';
+			heart.innerText = '❤️';
+			document.body.appendChild(heart);
+			setTimeout(() => {
+			  heart.remove();
+			}, 10000);
+		  }
+		  
+		  setInterval(createHeart, 300)
+		  
+	</script>
+</body>
+</html>
+
+<!------Coded by @Pranay5463-------->
+<!------ www.github.com/Pranay5463 ------>
+<!------ www.instagram.com/dark_elite_98 ------>
