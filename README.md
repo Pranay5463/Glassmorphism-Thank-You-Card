@@ -1,5 +1,5 @@
 ## Glassmorphism-Thank-You-Card
-A Thank You card in Glassmorphism design with hearts rain on button click ❤️ .
+A Thank You card in Glassmorphism style with hearts rain on button click ❤️ .
 
 #### Designed and Coded by @Pranay5463 👻
 
